@@ -1,0 +1,23 @@
+{
+  "name": "avengers",
+  "version": "1.0.0",
+  "description": "avengers project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taran1326/avengers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taran1326/avengers/issues"
+  },
+  "homepage": "https://github.com/taran1326/avengers#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
