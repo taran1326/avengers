@@ -3,6 +3,10 @@ const server = http.createServer();
 const fs = require('fs');
 
 const port = 3000;
+
+function requestHandler(req , res){
+
+}
 server.on('request', (req, res) => {
     switch (req.url) {
         case '/':
@@ -31,6 +35,7 @@ server.on('request', (req, res) => {
     }
 });
 
+module.exports = server
 
 server.listen(3000, () => {
     console.log('Server started on port 3000');

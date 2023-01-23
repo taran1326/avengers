@@ -4,7 +4,7 @@
   "description": "avengers project",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/taran1326/avengers#readme",
   "devDependencies": {
+    "jest": "^29.3.1",
     "mocha": "^10.2.0",
     "supertest": "^6.3.3"
   }

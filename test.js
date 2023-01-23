@@ -2,6 +2,7 @@ const request = require('supertest');
 const app = require('./app'); // your application file
 
 describe('Server', () => {
+
   it('should return the home page for the root URL', (done) => {
     request(app)
       .get('/')
